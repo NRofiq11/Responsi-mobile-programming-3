@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view.RecoveryActivity"
+    android:background="@drawable/bokeh">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECOVERY ACCOUNT"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="E-Mail"
+        android:inputType="textPersonName"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnRecovery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send E-Mail"
+        android:layout_marginBottom="10dp"
+        style="@style/Widget.AppCompat.Button.Colored" />
+    <TextView
+        android:id="@+id/tvRecovery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Login"
+        android:layout_marginBottom="30dp"/>
+</LinearLayout>
